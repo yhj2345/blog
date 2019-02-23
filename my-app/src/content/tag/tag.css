@@ -1,0 +1,35 @@
+.tag{
+    margin-left: 20vw;;
+     width:80vw;
+     
+}
+.tagCt{ 
+    background: rgba(0, 0, 0, 0.4);
+    margin: 10px;
+    padding:  80px;
+    display: flex;
+   
+    
+
+}
+
+.tags{
+    margin: 5px;
+    padding: 7px 13px;
+    color: #2479cc;
+    border: 1px solid #2479cc;
+    border-radius: 4px;
+    text-decoration:none;  
+}
+
+.tagH2{
+    position: relative;
+    left: 25px;
+    top: 50px;
+    
+}
+
+.tagCt a:hover {
+    color: lightcoral;
+    background:  #fff;  
+}

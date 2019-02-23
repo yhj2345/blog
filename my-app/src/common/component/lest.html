@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function padding1(num, length) {
+            for (var len = ("" + num).length; len < length; len = num.length) {
+                num = "0" + num
+            }
+            return num
+        }
+
+        function padding2(num, length) {
+            if ((num + "").length >= length) {
+                return num;
+            }
+            return padding2("0" + num, length)
+        }
+
+
+        console.log(padding1(52, 12))
+        console.log(padding2(82, 12))
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+.home {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    background: url(../img/bg.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.www {
+    box-sizing: border-box;
+    padding-left: 19vw;
+    width: 100%;
+}
+.on{
+    padding-left: 19vw;
+}
+
+.ppp1 {
+    /*   width: 100vw; */
+   
+    background: rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    font-style: none;
+    color: #ccc;
+    overflow: hidden;
+}
+
+
+.ppp2 {
+
+    background: rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    font-style: none;
+    color: #ccc;
+    overflow: hidden;
+    display: none; 
+}
+
+.ppp3 {
+    background: rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    font-style: none;
+    color: #ccc;
+    overflow: hidden;   
+}
+.ppp4 {
+
+   
+    background: rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    font-style: none;
+    color: #ccc;
+    overflow: hidden;   
+}
+
+/* 标题内容 */
+.aContent {
+    margin: 20px;
+}
+
+.aTitle {
+    text-align: center;
+
+}
+
+.aTitle a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+/* 阅读全文 */
+.aText {
+    text-align: center;
+}
+
+.aText a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ccc;
+
+}
+
+.aText a:hover {
+    color: lightcoral;
+}
